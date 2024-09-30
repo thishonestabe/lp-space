@@ -1924,7 +1924,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
     }
     .text-dark-gray { 
         a[href^="tel"] {
-            color: var(--text-dark-gray);
+            color: var(--text-dark-gray); //
         }
     }
 }

@@ -83,6 +83,69 @@ header .navbar-brand img {
     font-size: 4.3rem;
     line-height: 4.7rem;
 }
+/* .text-dark-gray {
+    color: red;
+} */
+ .lp-base-color {
+    color: #BC8947;
+ }
+ .lp-medium-grey {
+    color: #828282 !important;
+ }
+ .lp-light-gray {
+color: #E0E0E0 !important;
+ }
+ .lp-off-white {
+    color: #F5F5F5 !important;
+ }
+ .lp-cool-gray {
+      color: #D1D1D1 !important;
+ }
+ .lp-light-silver {
+  color: #CCCCCC !important;
+ }
+ .lp-warm-gray {
+    color: #FAFAFA !important;
+ }
+ .lp-ivory {
+    color: #F8F8FF !important;
+ }
+ .lp-pale-blue-gray {
+    color: #ECEFF1 !important;
+ }
+ .lp-beige {
+    color: #F2E8D5 !important;
+ }
+
+ /* SECTION COLORS */
+.lp-section-dark {
+    background-color: #121212 !important;
+    color: #ffffff
+}
+.lp-section-darker {
+    background-color: #1E1E1E !important;
+    /* color: #ffffff; */
+}
+
+/* SHADOW */
+
+.lp-light-shadow {
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.3) !important;
+}
+
+
+/* BUTTONS */
+.lp-btn-box-shadow-light {
+    -webkit-box-shadow: 0 5px 20px rgba(255, 255, 255, .2); /* Darker shadow for better contrast */
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2); /* Dark shadow */
+    -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0.3, 1); /* Smooth transition */
+    transition: all 0.3s cubic-bezier(0.2, 0, 0.3, 1);
+}
+.btn.lp-light-btn {
+    font-weight: 400;
+    background-color:  #F5F5F5 !important;
+    color: #828282 !important;
+}
 /* media query responsive */
 @media (max-width: 1199px) {
     header .btn.btn-very-small {
