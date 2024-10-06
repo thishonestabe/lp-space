@@ -6887,6 +6887,18 @@ header.sticky.sticky-active .navbar-brand .default-logo {
   visibility: hidden;
   opacity: 0;
   width: 0;
+
+}
+#default-logo {
+  height: 80px !important;
+  width: 100px !important;
+  position:  absolute !important;
+  max-width: none;
+  max-height: none;
+}
+#mobile-logo {
+  position: absolute !important;
+  transform: scale(1.6) !important;
 }
 header.sticky.sticky-active [data-header-hover=dark] {
   background-color: var(--dark-gray) !important;
